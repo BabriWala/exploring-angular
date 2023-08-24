@@ -10,5 +10,6 @@ import { Component } from '@angular/core';
   styles: [`h1{background-color: red}`]
 })
 export class AppComponent {
+  role = "User";
   title = 'hotelInventory';
 }

@@ -44,6 +44,8 @@ export class RoomsComponent {
     },
   ]
 
+  
+
   toggle(){
     this.hideRooms = !this.hideRooms;
   }
