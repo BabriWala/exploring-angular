@@ -25,6 +25,7 @@ export class RoomsComponent {
       photos: "htttps://facebook.com",
       checkInTime: new Date("11-Nov-2021"),
       checkOutTime: new Date("12-Nov-2021"),
+      rating: 5.03
     },
     { roomNumber: 2,
       roomType: "Deluxe",
@@ -33,6 +34,7 @@ export class RoomsComponent {
       photos: "htttps://facebook.com",
       checkInTime: new Date("11-Nov-2021"),
       checkOutTime: new Date("12-Nov-2021"),
+      rating: 2.5
     },
     { roomNumber: 3,
       roomType: "Deluxe",
@@ -41,6 +43,7 @@ export class RoomsComponent {
       photos: "htttps://facebook.com",
       checkInTime: new Date("11-Nov-2021"),
       checkOutTime: new Date("12-Nov-2021"),
+      rating: 3.5
     },
   ]
 
