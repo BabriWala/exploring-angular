@@ -1,0 +1,12 @@
+<p>rooms works!</p>
+<!-- Interpolation -->
+<h2>My Rooms {{hotelName}}</h2>
+
+<!-- Property Binding -->
+<div [hidden]="hideRooms">
+<div [innerText]="numberOfRooms" >
+    <h3>This is Hide</h3>
+</div>  
+</div>
+<!-- Event Binding -->
+<button (click)="toggle()">Hide</button>
