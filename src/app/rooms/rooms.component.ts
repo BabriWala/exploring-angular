@@ -18,7 +18,7 @@ export class RoomsComponent {
   }
 
   roomList: RoomList[] = [
-    {
+    { roomNumber: 1,
       roomType: "Deluxe",
       amenities: "Air Conditionar",
       price: 300,
@@ -26,7 +26,7 @@ export class RoomsComponent {
       checkInTime: new Date("11-Nov-2021"),
       checkOutTime: new Date("12-Nov-2021"),
     },
-    {
+    { roomNumber: 2,
       roomType: "Deluxe",
       amenities: "Air Conditionar",
       price: 300,
@@ -34,7 +34,7 @@ export class RoomsComponent {
       checkInTime: new Date("11-Nov-2021"),
       checkOutTime: new Date("12-Nov-2021"),
     },
-    {
+    { roomNumber: 3,
       roomType: "Deluxe",
       amenities: "Air Conditionar",
       price: 300,
