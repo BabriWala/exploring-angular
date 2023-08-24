@@ -10,3 +10,14 @@
 </div>
 <!-- Event Binding -->
 <button (click)="toggle()">Hide</button>
+
+{{rooms?.availableRooms ?? "No Rooms"}}
+
+<div *ngIf="rooms?.availableRooms">
+    Rooms List
+</div>
+
+<div *ngIf="rooms.availableRooms > 0">
+    Rooms List 2
+    {{roomList}}
+</div>
