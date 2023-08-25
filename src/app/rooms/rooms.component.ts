@@ -17,6 +17,8 @@ export class RoomsComponent {
     bookedRooms: 5
   }
 
+  selectedRoom! : RoomList;
+
   roomList: RoomList[] = [
     { roomNumber: 1,
       roomType: "Deluxe",
@@ -53,4 +55,8 @@ export class RoomsComponent {
     this.hideRooms = !this.hideRooms;
   }
 
+  selectRoom(room: RoomList){
+    console.log(room)
+    this.selectedRoom = room;
+  }
 }

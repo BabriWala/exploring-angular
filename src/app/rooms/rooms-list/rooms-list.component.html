@@ -11,6 +11,7 @@ Rooms List 2
         <th>Room Amenities</th>
         <th>Checking Time</th>
         <th>Rating</th>
+        <th>Select Room</th>
     </tr>
     <tr [ngClass]="e ? 'even' : 'odd' " *ngFor="let room of rooms | slice: 0:2; let e =even;  let o = odd; let i = index">
 
@@ -22,6 +23,9 @@ Rooms List 2
         <td>{{room.amenities | uppercase}}</td>
         <td>{{room.checkInTime | date: 'dd/MM/YYYY'}}</td>
         <td>{{room.rating | number: '1.0-0' : 'en-us'}}</td>
+        <td>
+            <button (click)="selectRoom(room)">Select</button>
+        </td>
         
     </tr>
 </table>
