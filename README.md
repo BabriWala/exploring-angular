@@ -1,27 +1,40 @@
-# HotelInventory
+Exploring Angular JS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+There are many topics which covers it:-
 
-## Development server
+Component
+Module
+Data binding with multiple Component
+Parent-Child Communication
+String Interpolation {{}}
+One way Binding — Custom Binding, Property Binding
+Two Way Binding [(ngModel)]
+4. Directives and Life cycle
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+5. Host Binding and Attribute Directives
 
-## Code scaffolding
+6. View Children and Content Children
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+7. Services & Dependency Injection
 
-## Build
+8. Changing Pages with Routing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Router Guard
+9. Understanding Observable
 
-## Running unit tests
+Observable with Reactive Programming
+10. Handling Forms in Angular Apps
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+11. Using Pipes to Transform Output
 
-## Running end-to-end tests
+12. Making HTTP Requests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+13. Authentication & Route Protection in Angular Apps
 
-## Further help
+14. Using Angular Modules & Optimizing Apps
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+15.Deploying in Angular App
+
+16. Animation
+
+17. Angular Universal
